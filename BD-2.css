@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav ul{
+    display: flex;
+    justify-content:space-between ;
+    margin:20px 120px;
+}
+ nav ul li {
+    display: inline;
+    font-weight: bold;
+    font-size: 32px;
+    font-family:Fira Sans;
+    line-height: auto;
+    letter-spacing: 0%;
+    list-style: none;
+}
+ ul li a button{
+  
+    background-color: #C6E4D6;
+    font-size: 12px;
+    border:2px rgb(107, 101, 101);
+    color: #0f3f32;
+    padding: 5px;
+}
+ul li a{ 
+    text-decoration: none;
+
+}
+
+/* banner started*/
+.banner{
+    margin-top: 0px;
+}
+
+.bn1{
+    background-color: rgb(130, 168, 156);
+    margin: 0px 120px 65px;
+    padding: 80px 100px 80px 100px
+    height:460px;
+    width: 980px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    opacity: 100%;
+    font-size:22px;
+   
+}
+.bn2{
+    margin-top:45px;
+    padding: 100px;
+   
+
+}
+.hero{
+    margin-top: 40px;
+    padding-bottom: 100px;
+   
+}
+.vission {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    width: 980px;
+}
+.vission .label1{
+    padding: 25px;
+    margin: 10px;
+    background-color: rgb(177, 174, 170);
+    border: none;
+    box-shadow: 5px 3px 5px rgb(148, 143, 143);
+}
+.vission .label2{
+    padding: 25px;
+    margin: 10px;
+    background-color: rgb(125, 151, 180);
+    border: none;
+    box-shadow: 5px 3px 5px rgb(148, 143, 143);
+}
+.vission .label3{
+    padding: 25px;
+    margin: 10px;
+    background-color: rgb(91, 134, 105);
+    border: none;
+    box-shadow: 5px 3px 5px rgb(148, 143, 143);
+}
+.quote{
+    background-image: url(Assets/quote-bg.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.news{
+    margin: 0px 45px 0px 80px;
+    padding: 25px;
+}
+.news-al-jazeera{
+    display: inline-block;
+    background-color: rgb(245, 234, 234);
+    margin: 40px 25px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.news-al-jazeera .news-sattelite1{
+    float: left;
+    height: 280px;
+    margin: 5px 40px 0px 35px;
+    }
+.news-al-jazeera .news-sattelite3{
+float: left;
+height: 280px;
+margin: 5px 40px 0px 35px;
+}
+.news-al-jazeera .news-sattelite2{
+    float: right;
+    height: 280px;
+    margin: 5px 40px 0px 35px;
+    }
+    .btn{
+        background-color: #0f3f32;
+        color: azure;
+        border-radius: 3px;
+        border: none;
+        font-size: 10px;
+        width: 55px;
+        height: 20px;
+    }
+    .donate-description{
+        text-align: center;
+        margin:0px 80px 0px 100px;
+    }
+    .donation{
+        margin-left: 60px;
+        justify-content: center;
+        padding: 20px;
+        
+    }
+    .donate-tk{
+        font-size: 30px;
+        background-color: rgb(226, 209, 188);
+        text-align: center;
+        padding: 15px;
+        margin:20px 20px 10px 50px;
+        align-items: center;
+        justify-items: center;
+    }
+    #tk200{
+        background-color: aquamarine;
+
+    }
+    .donate-input{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 980px;
+        height: 28px;
+        margin-left: 80px;
+    }
+    .btn-donate{
+        display: flex;
+        margin-top: 10px;
+        background-color: #075f42;
+        color: aliceblue;
+        justify-content: center;
+        text-align: center;
+        justify-items: center;
+    }
+    .donation .donate-tk:hover{
+        background-color: #28c49a;
+    }
