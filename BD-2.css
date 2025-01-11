@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -19,11 +21,16 @@ nav ul{
 }
  ul li a button{
   
-    background-color: #C6E4D6;
+    background-color: #3ac282;
     font-size: 12px;
-    border:2px rgb(107, 101, 101);
-    color: #0f3f32;
+    border:none;
+    color: #dcf7ef;
     padding: 5px;
+    float: right;
+}
+
+ul li a button:hover{
+    background-color: #a2c428;
 }
 ul li a{ 
     text-decoration: none;
@@ -33,20 +40,20 @@ ul li a{
 /* banner started*/
 .banner{
     margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 .bn1{
-    background-color: rgb(130, 168, 156);
-    margin: 0px 120px 65px;
-    padding: 80px 100px 80px 100px
-    height:460px;
-    width: 980px;
-    text-align: center;
+    background-color: rgb(162, 196, 185);
+    margin: 0px 80px 80px 120px;
+    width:1080px ;
+    height: 560px;;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 16px;
     opacity: 100%;
     font-size:22px;
+    
    
 }
 .bn2{
@@ -57,57 +64,138 @@ ul li a{
 }
 .hero{
     margin-top: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
    
 }
+.pillars{
+    margin-top: 0px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin: 15px;
+    padding: 20px;
+    justify-content: space-around;
+
+}
+.pillars1{
+    width: 1080px;
+    display: flex;
+    margin-left: 100px;
+    font-size: 15px;
+}
+.pillars1 .p-1{
+    padding: 25px;
+    margin: 10px;
+    background-color: #faf6f6;
+    width: max-content;
+    border-radius: 10px;
+    box-shadow:5px 7px 6px #828577;
+
+}
+.pillars1 .p-2{
+   margin: 10px;
+    padding: 25px;
+    background-color: white;
+    width: max-content;
+    border-radius: 10px;
+    box-shadow:5px 7px 6px #828577;
+}
+.pillars1 .p-3{
+    margin: 10px;
+    padding: 25px;
+    background-color: white;
+    width: max-content;
+    border-radius: 10px;
+    box-shadow:5px 7px 6px #828577;
+
+}
+.pillars1 .p-4{
+    margin: 10px;
+    padding: 25px;
+   background-color: white;
+   width: max-content;
+   border-radius: 10px;
+   box-shadow:5px 7px 6px #828577;
+
+}
+
+
 .vission {
     display: flex;
     justify-content: space-around;
     margin: 5px;
-    width: 980px;
+    width: 1080px;
 }
 .vission .label1{
     padding: 25px;
     margin: 10px;
-    background-color: rgb(177, 174, 170);
+    background-color: rgb(241, 231, 216);
     border: none;
-    box-shadow: 5px 3px 5px rgb(148, 143, 143);
+    box-shadow: 5px 3px 5px rgb(59, 45, 45);
+    border-radius: 10px;
 }
 .vission .label2{
     padding: 25px;
     margin: 10px;
-    background-color: rgb(125, 151, 180);
+    background-color: rgb(219, 188, 122);
     border: none;
-    box-shadow: 5px 3px 5px rgb(148, 143, 143);
+    box-shadow: 5px 3px 5px rgb(39, 31, 31);
+    border-radius: 10px;
 }
 .vission .label3{
     padding: 25px;
     margin: 10px;
-    background-color: rgb(91, 134, 105);
+    background-color: rgb(158, 240, 185);
     border: none;
-    box-shadow: 5px 3px 5px rgb(148, 143, 143);
+    box-shadow: 5px 3px 7px rgb(56, 46, 46);
+    border-radius: 10px;
 }
+
 .quote{
     background-image: url(Assets/quote-bg.png);
     background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
+    margin-left: 25px;
+    padding: 10px;
+    width: 1080px;
+    background-color: rgb(195, 214, 208);
+    border-radius: 7px;
+    
 }
+.quote1{
+    margin-left: 25px;
+    padding: 10px;
+    width: 1080px;
+    background-color: rgb(204, 224, 218);
+    border-radius: 7px;
+}
+.table{
+    margin-left: 120px;
+    padding: 25px;
+    width: 1080px;
+    background-color: #daddd0;
+}
+
 .news{
     margin: 0px 45px 0px 80px;
     padding: 25px;
 }
+.news-title{
+    margin-left:40px;
+    width: 1080px;
+}
 .news-al-jazeera{
     display: inline-block;
     background-color: rgb(245, 234, 234);
-    margin: 40px 25px;
+    margin: 10px 25px 20px;
     padding: 20px;
     justify-content: space-between;
+    border-radius: 20px;
 }
 .news-al-jazeera .news-sattelite1{
     float: left;
     height: 280px;
     margin: 5px 40px 0px 35px;
+   
     }
 .news-al-jazeera .news-sattelite3{
 float: left;
@@ -128,36 +216,55 @@ margin: 5px 40px 0px 35px;
         width: 55px;
         height: 20px;
     }
+    .btn:hover{
+        background-color: #3c5513;
+
+    }
+    .btn1{background-color: #0f3f32;
+        color: azure;
+        border-radius: 3px;
+        border: none;
+        font-size: 10px;
+        width: 55px;
+        height: 20px;
+    }
+
+    .btn1:hover{
+        background-color: #3c5513;
+
+    }
     .donate-description{
         text-align: center;
         margin:0px 80px 0px 100px;
     }
     .donation{
-        margin-left: 60px;
+        margin-left: 100px;
         justify-content: center;
         padding: 20px;
         
     }
     .donate-tk{
         font-size: 30px;
-        background-color: rgb(226, 209, 188);
+        background-color: rgb(226, 199, 165);
         text-align: center;
         padding: 15px;
         margin:20px 20px 10px 50px;
         align-items: center;
         justify-items: center;
+        border-radius: 7px;
     }
     #tk200{
         background-color: aquamarine;
 
     }
+
     .donate-input{
         display: flex;
         justify-content: center;
         text-align: center;
         width: 980px;
         height: 28px;
-        margin-left: 80px;
+        margin-left: 180px;
     }
     .btn-donate{
         display: flex;
@@ -167,7 +274,20 @@ margin: 5px 40px 0px 35px;
         justify-content: center;
         text-align: center;
         justify-items: center;
+        border-radius: 7px;
     }
     .donation .donate-tk:hover{
         background-color: #28c49a;
+    }
+    .donate-button{
+        justify-content: center;
+        background-color: rgb(33, 110, 68);
+        text-align: center;
+        margin-left: 600px;
+        padding: 10px;
+        border-radius: 7px;
+
+    }
+    .donate-button:hover{
+background-color: aquamarine;
     }
